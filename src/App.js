@@ -3,22 +3,26 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Content from "./components/Content/Content";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Cv from "./components/Pages/about-me/Cv";
+import Home from "./components/Pages/home/Home";
 
 function App() {
   return (
-    <div className="main-wrapper">
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="main-wrapper">
         <Header />
         <Navbar />
-        <Routes>
-          <Route path="/cv" component={Cv} />
-        </Routes>
+        <div className="main-wrapper-content">
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/cv" element={<Cv />} />
+          </Routes>
+        </div>
         <Content />
         <Footer />
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -3,8 +3,8 @@
     background-color: green;    
 }
 
-.item {
-  color: black;
+.item a{
+  color: white;
   margin: 10px;
 }
 .item :active {
