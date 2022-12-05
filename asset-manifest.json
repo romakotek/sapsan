@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sapsan/static/css/main.afcdc88f.css",
-    "main.js": "/sapsan/static/js/main.d5f33e62.js",
+    "main.css": "/sapsan/static/css/main.ebc09b49.css",
+    "main.js": "/sapsan/static/js/main.d547022e.js",
     "static/media/Yerzhan.png": "/sapsan/static/media/Yerzhan.a93a58510a8bb6ac955b.png",
     "static/media/logo.svg": "/sapsan/static/media/logo.ad877a7aaf28d73397132b861a80b251.svg",
     "index.html": "/sapsan/index.html",
-    "main.afcdc88f.css.map": "/sapsan/static/css/main.afcdc88f.css.map",
-    "main.d5f33e62.js.map": "/sapsan/static/js/main.d5f33e62.js.map"
+    "main.ebc09b49.css.map": "/sapsan/static/css/main.ebc09b49.css.map",
+    "main.d547022e.js.map": "/sapsan/static/js/main.d547022e.js.map"
   },
   "entrypoints": [
-    "static/css/main.afcdc88f.css",
-    "static/js/main.d5f33e62.js"
+    "static/css/main.ebc09b49.css",
+    "static/js/main.d547022e.js"
   ]
 }
