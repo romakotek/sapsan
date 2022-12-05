@@ -19,7 +19,6 @@ function App() {
             <Route path="/cv" element={<Cv />} />
           </Routes>
         </div>
-        <Content />
         <Footer />
       </div>
     </BrowserRouter>
