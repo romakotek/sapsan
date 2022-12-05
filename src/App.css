@@ -15,4 +15,6 @@
 .main-wrapper-content {
   grid-area: c;
   background-color: green solid;
+  border-radius: 5;
+  border-color: black 1px solid;
 }
