@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.nav {
+  grid-area: n;
+  background-color: green;
+  .item a {
+    color: $navItems;
+    margin: 10px;
+  }
+  .item :hover {
+    font-weight: bold;
+    color: $navItemsOnHover;
+  }
+}

@@ -1,4 +1,4 @@
-import styles from "./Navbar.module.css";
+import styles from "./Navbar.module.scss";
 import cv from "../Pages/about-me/Cv";
 import { NavLink } from "react-router-dom";
 

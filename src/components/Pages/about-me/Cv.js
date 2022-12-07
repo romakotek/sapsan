@@ -1,5 +1,5 @@
 import CvImage from "../../../assets/Yerzhan.png";
-import styles from './Cv.modules.css';
+import styles from './Cv.module.scss';
 
 const Cv = (props) => {
   return (
@@ -7,7 +7,7 @@ const Cv = (props) => {
       <table>
         <tr>
           <td>
-            <img src={CvImage} className={styles.cvheaderimg} alt="Yerzhan's Avatar" />
+            <img src={CvImage} alt="Yerzhan's Avatar" />
           </td>
           <td valign="top">
             <ul>

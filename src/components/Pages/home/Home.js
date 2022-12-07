@@ -1,7 +1,8 @@
+import styles from "./Home.module.scss";
 
 const Home = (props) => {
   return (
-    <div>
+    <div className={styles.container}>
       Home page
     </div>
   );

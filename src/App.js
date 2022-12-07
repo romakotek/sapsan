@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Content from "./components/Content/Content";
@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Cv from "./components/Pages/about-me/Cv";
 import Home from "./components/Pages/home/Home";
+import Contacts from "./components/Pages/contacts/Contacts"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/cv" element={<Cv />} />
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </div>
         <Footer />
